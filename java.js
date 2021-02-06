@@ -6,3 +6,7 @@ const setBg = () => {
   
   genNew.addEventListener("click", setBg);
   setBg();
+
+  function js_style () {
+    document.getElementById ("table").text.style.fontSize = "14pt";  
+  }    
