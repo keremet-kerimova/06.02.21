@@ -1,24 +1,23 @@
 
 
 
-// var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-// function generateRandomColor()
-// {
-//     var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-//     return randomColor;
-//     //random color will be freshly served
-// }
-// document.body.style.backgroundColor = generateRandomColor() // -> #e1ac94
-// someDiv.style.color = generateRandomColor() 
-
-let example3 = document.querySelector("h1");
-    h1.style.fontSize = "20px";
-
-
-example4.addEventListener("click", function(){
-    let example3 = document.querySelector("h1");
-    h1.innerText++;
+var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+function generateRandomColor()
+{
+    var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    return randomColor;
+    //random color will be freshly served
 }
+
+
+// let example3 = document.querySelector("h1");
+//     h1.style.fontSize = "20px";
+
+
+// example4.addEventListener("click", function(){
+//     let example3 = document.querySelector("h1");
+//     h1.innerText++;
+// }
 
 
 // const setBg = () => {
